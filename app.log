@@ -1,0 +1,98 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 623-196-902
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 623-196-902
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:26:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:26:45] "GET / HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1', 'city_pop': '1', 'merch_lat': '1', 'merch_long': '1', 'age': '1', 'model_name': 'Decision Tree'}, Model: Decision Tree, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:26:58] "POST /predict HTTP/1.1" 200 -
+ERROR:root:Prediction failed - Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- age
+- city_pop
+- merch_lat
+- merch_long
+
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:27:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+ERROR:root:Prediction failed - Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- age
+- city_pop
+- merch_lat
+- merch_long
+
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:27:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+ERROR:root:Prediction failed - Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- age
+- city_pop
+- merch_lat
+- merch_long
+
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:27:14] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+ERROR:root:Prediction failed - Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- age
+- city_pop
+- merch_lat
+- merch_long
+
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:27:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+ERROR:root:Prediction failed - Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- age
+- city_pop
+- merch_lat
+- merch_long
+
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:27:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+ERROR:root:Prediction failed - Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- age
+- city_pop
+- merch_lat
+- merch_long
+
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:27:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+ERROR:root:Prediction failed - Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- age
+- city_pop
+- merch_lat
+- merch_long
+
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:27:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:28:57] "GET / HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1', 'city_pop': '1', 'merch_lat': '1', 'merch_long': '1', 'age': '1', 'model_name': 'Decision Tree'}, Model: Decision Tree, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:29:02] "POST /predict HTTP/1.1" 200 -
+ERROR:root:Prediction failed - Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- age
+- city_pop
+- merch_lat
+- merch_long
+
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:29:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+ERROR:root:Prediction failed - Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- age
+- city_pop
+- merch_lat
+- merch_long
+
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:29:07] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+ERROR:root:Prediction failed - Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- age
+- city_pop
+- merch_lat
+- merch_long
+
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:31:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:Prediction request - Data: {'amt': '1', 'city_pop': '1', 'merch_lat': '1', 'merch_long': '1', 'age': '1', 'model_name': 'Decision Tree'}, Model: Decision Tree, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:31:59] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\DeployPDM2\\app.py', reloading

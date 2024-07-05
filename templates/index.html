@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fraud Detection</title>
+    <link rel="stylesheet" href="../static/css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fraud Detection</h1>
+        <form id="prediction-form" class="form">
+            <div class="form-group">
+                <label for="amt">Amount:</label>
+                <input type="number" id="amt" name="amt" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="city_pop">City Population:</label>
+                <input type="number" id="city_pop" name="city_pop" required>
+            </div>
+            <div class="form-group">
+                <label for="merch_lat">Merchant Latitude:</label>
+                <input type="number" id="merch_lat" name="merch_lat" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="merch_long">Merchant Longitude:</label>
+                <input type="number" id="merch_long" name="merch_long" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="model_name">Model:</label>
+                <select id="model_name" name="model_name" required>
+                    <option value="Decision Tree">Decision Tree</option>
+                    <option value="Random Forest">Random Forest</option>
+                </select>
+            </div>
+            <input type="submit" value="Predict" class="btn">
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script>
+        document.getElementById('prediction-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+            const data = {};
+            formData.forEach(function(value, key){
+                data[key] = value;
+            });
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').innerText = `Result: ${data.result}`;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('result').innerText = 'An error occurred. Please try again.';
+            });
+        });
+    </script>
+</body>
+</html>
