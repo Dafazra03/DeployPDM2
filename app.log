@@ -96,3 +96,48 @@ INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:31:56] "[35m[1mPOST /predict HTTP/
 INFO:root:Prediction request - Data: {'amt': '1', 'city_pop': '1', 'merch_lat': '1', 'merch_long': '1', 'age': '1', 'model_name': 'Decision Tree'}, Model: Decision Tree, Result: Bukan Penipuan
 INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:31:59] "POST /predict HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'D:\\DeployPDM2\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 623-196-902
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:34:54] "GET / HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1', 'city_pop': '1', 'merch_lat': '1', 'merch_long': '1', 'age': '1', 'model_name': 'Decision Tree'}, Model: Decision Tree, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:34:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1', 'city_pop': '1', 'merch_lat': '1', 'merch_long': '1', 'age': '1', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1', 'city_pop': '1', 'merch_lat': '1', 'merch_long': '1', 'age': '1', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1361', 'city_pop': '118412', 'merch_lat': '14126', 'merch_long': '231211', 'age': '121', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1361', 'city_pop': '118412', 'merch_lat': '14126', 'merch_long': '231211', 'age': '12', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1361', 'city_pop': '118412', 'merch_lat': '14126', 'merch_long': '231211', 'age': '20', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1361', 'city_pop': '118412', 'merch_lat': '14126', 'merch_long': '231', 'age': '20', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1361', 'city_pop': '118412', 'merch_lat': '14', 'merch_long': '231', 'age': '20', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1361', 'city_pop': '118', 'merch_lat': '14', 'merch_long': '231', 'age': '20', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '13', 'city_pop': '118', 'merch_lat': '14', 'merch_long': '231', 'age': '20', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '13', 'city_pop': '118', 'merch_lat': '14', 'merch_long': '231', 'age': '20', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '13', 'city_pop': '118', 'merch_lat': '14', 'merch_long': '231', 'age': '20', 'model_name': 'Decision Tree'}, Model: Decision Tree, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:39] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:35:42] "GET / HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1', 'city_pop': '1', 'merch_lat': '1', 'merch_long': '1', 'age': '1', 'model_name': 'Decision Tree'}, Model: Decision Tree, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:44:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1', 'city_pop': '1', 'merch_lat': '1', 'merch_long': '1', 'age': '1', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:44:23] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:48:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:48:29] "GET /static/css/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:48:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:48:29] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+INFO:root:Prediction request - Data: {'amt': '1212', 'city_pop': '1212', 'merch_lat': '12121', 'merch_long': '2121', 'age': '12121', 'model_name': 'Decision Tree'}, Model: Decision Tree, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:48:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1212', 'city_pop': '1212', 'merch_lat': '12121', 'merch_long': '2121', 'age': '12121', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:48:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction request - Data: {'amt': '1212', 'city_pop': '1212', 'merch_lat': '12121', 'merch_long': '2121', 'age': '12121', 'model_name': 'Random Forest'}, Model: Random Forest, Result: Bukan Penipuan
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:48:43] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:48:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jul/2024 14:48:50] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -

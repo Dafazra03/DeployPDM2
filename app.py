@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify, render_template
-from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 import pickle
 import logging
